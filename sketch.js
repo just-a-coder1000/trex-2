@@ -108,7 +108,7 @@
     spawnClouds();
       spawnObstacles();
     fill("white")
-    text("Press Arrow keys to control",270,90)
+    text("Press Arrow keys to control",250,90)
     //trying to make the trex seem running
     //ground.velocityX = -(6 + 2*score1/100);
     //jump when space spacekey is pressed and fixed bug of flappy               bird. 
