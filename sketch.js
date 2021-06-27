@@ -106,6 +106,7 @@
     
     if (gameState === PLAY){
     spawnClouds();
+      spawnObstacles();
     fill("white")
     text("Press Arrow keys to control",270,90)
     //trying to make the trex seem running
@@ -121,7 +122,6 @@
     if(keyDown(RIGHT_ARROW)){
 
       trex.velocityX = 4;
-      spawnObstacles();
       score1 = score1 + Math.round(getFrameRate()/60);
 
     }
